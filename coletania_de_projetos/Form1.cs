@@ -16,5 +16,15 @@ namespace coletania_de_projetos
         {
             InitializeComponent();
         }
+
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void projetosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
