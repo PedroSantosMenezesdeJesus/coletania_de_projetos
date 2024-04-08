@@ -1,0 +1,11 @@
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\bin\Debug\coletania_de_projetos.exe.config
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\bin\Debug\coletania_de_projetos.exe
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\bin\Debug\coletania_de_projetos.pdb
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.csproj.AssemblyReference.cache
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.Form1.resources
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.frmdesc.resources
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.Properties.Resources.resources
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.csproj.GenerateResource.cache
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.csproj.CoreCompileInputs.cache
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.exe
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.pdb

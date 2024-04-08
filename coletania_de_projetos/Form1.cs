@@ -26,5 +26,17 @@ namespace coletania_de_projetos
         {
 
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void form2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmdesc desc = new frmdesc();
+            desc.Show();
+        }
     }
 }
