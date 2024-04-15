@@ -38,6 +38,9 @@
             this.txtfinal = new System.Windows.Forms.TextBox();
             this.btncalcular = new System.Windows.Forms.Button();
             this.txtregiaoFinal = new System.Windows.Forms.TextBox();
+            this.lblMostrarRegião = new System.Windows.Forms.Label();
+            this.lblInformacao = new System.Windows.Forms.Label();
+            this.btnvoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblregiao
@@ -45,9 +48,9 @@
             this.lblregiao.AutoSize = true;
             this.lblregiao.Location = new System.Drawing.Point(43, 115);
             this.lblregiao.Name = "lblregiao";
-            this.lblregiao.Size = new System.Drawing.Size(70, 13);
+            this.lblregiao.Size = new System.Drawing.Size(73, 13);
             this.lblregiao.TabIndex = 0;
-            this.lblregiao.Text = "Qual a região";
+            this.lblregiao.Text = "Qual o código";
             // 
             // lblpreco
             // 
@@ -100,6 +103,7 @@
             // 
             // txtfinal
             // 
+            this.txtfinal.Enabled = false;
             this.txtfinal.Location = new System.Drawing.Point(248, 226);
             this.txtfinal.Name = "txtfinal";
             this.txtfinal.Size = new System.Drawing.Size(100, 20);
@@ -107,7 +111,7 @@
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(46, 311);
+            this.btncalcular.Location = new System.Drawing.Point(46, 347);
             this.btncalcular.Name = "btncalcular";
             this.btncalcular.Size = new System.Drawing.Size(75, 23);
             this.btncalcular.TabIndex = 8;
@@ -117,16 +121,49 @@
             // 
             // txtregiaoFinal
             // 
-            this.txtregiaoFinal.Location = new System.Drawing.Point(398, 226);
+            this.txtregiaoFinal.Enabled = false;
+            this.txtregiaoFinal.Location = new System.Drawing.Point(248, 285);
             this.txtregiaoFinal.Name = "txtregiaoFinal";
             this.txtregiaoFinal.Size = new System.Drawing.Size(100, 20);
             this.txtregiaoFinal.TabIndex = 9;
+            this.txtregiaoFinal.TextChanged += new System.EventHandler(this.txtregiaoFinal_TextChanged);
+            // 
+            // lblMostrarRegião
+            // 
+            this.lblMostrarRegião.AutoSize = true;
+            this.lblMostrarRegião.Location = new System.Drawing.Point(46, 291);
+            this.lblMostrarRegião.Name = "lblMostrarRegião";
+            this.lblMostrarRegião.Size = new System.Drawing.Size(53, 13);
+            this.lblMostrarRegião.TabIndex = 10;
+            this.lblMostrarRegião.Text = "Região é:";
+            // 
+            // lblInformacao
+            // 
+            this.lblInformacao.AutoSize = true;
+            this.lblInformacao.Location = new System.Drawing.Point(505, 50);
+            this.lblInformacao.Name = "lblInformacao";
+            this.lblInformacao.Size = new System.Drawing.Size(205, 13);
+            this.lblInformacao.TabIndex = 11;
+            this.lblInformacao.Text = "digite código do produto: 1, 2, 3, 4, 5 ou 0";
+            // 
+            // btnvoltar
+            // 
+            this.btnvoltar.Location = new System.Drawing.Point(248, 346);
+            this.btnvoltar.Name = "btnvoltar";
+            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.TabIndex = 12;
+            this.btnvoltar.Text = "voltar ";
+            this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // frmdesc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnvoltar);
+            this.Controls.Add(this.lblInformacao);
+            this.Controls.Add(this.lblMostrarRegião);
             this.Controls.Add(this.txtregiaoFinal);
             this.Controls.Add(this.btncalcular);
             this.Controls.Add(this.txtfinal);
@@ -156,5 +193,8 @@
         private System.Windows.Forms.TextBox txtfinal;
         private System.Windows.Forms.Button btncalcular;
         private System.Windows.Forms.TextBox txtregiaoFinal;
+        private System.Windows.Forms.Label lblMostrarRegião;
+        private System.Windows.Forms.Label lblInformacao;
+        private System.Windows.Forms.Button btnvoltar;
     }
 }
