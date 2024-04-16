@@ -38,5 +38,12 @@ namespace coletania_de_projetos
             frmdesc desc = new frmdesc();
             desc.Show();
         }
+
+        private void cidadaniaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmcidadania cidadania = new frmcidadania();
+            cidadania.Show();
+        }
     }
 }

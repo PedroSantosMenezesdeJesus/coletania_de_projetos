@@ -9,3 +9,4 @@ C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\col
 C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.csproj.CoreCompileInputs.cache
 C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.exe
 C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.pdb
+C:\Users\2jd\Documents\coletania_de_projetos\coletania_de_projetos\obj\Debug\coletania_de_projetos.frmcidadania.resources

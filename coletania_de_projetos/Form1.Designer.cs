@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.btnvoltar = new System.Windows.Forms.Button();
             this.projetosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.form2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnvoltar = new System.Windows.Forms.Button();
+            this.cidadaniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,20 +47,11 @@
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
-            // btnvoltar
-            // 
-            this.btnvoltar.Location = new System.Drawing.Point(222, 1);
-            this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
-            this.btnvoltar.TabIndex = 1;
-            this.btnvoltar.Text = "Voltar";
-            this.btnvoltar.UseVisualStyleBackColor = true;
-            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
-            // 
             // projetosToolStripMenuItem
             // 
             this.projetosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.form2ToolStripMenuItem});
+            this.form2ToolStripMenuItem,
+            this.cidadaniaToolStripMenuItem});
             this.projetosToolStripMenuItem.Name = "projetosToolStripMenuItem";
             this.projetosToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.projetosToolStripMenuItem.Text = "Projetos";
@@ -70,6 +62,23 @@
             this.form2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.form2ToolStripMenuItem.Text = "Desconto";
             this.form2ToolStripMenuItem.Click += new System.EventHandler(this.form2ToolStripMenuItem_Click);
+            // 
+            // btnvoltar
+            // 
+            this.btnvoltar.Location = new System.Drawing.Point(222, 1);
+            this.btnvoltar.Name = "btnvoltar";
+            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.TabIndex = 1;
+            this.btnvoltar.Text = "Voltar";
+            this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
+            // 
+            // cidadaniaToolStripMenuItem
+            // 
+            this.cidadaniaToolStripMenuItem.Name = "cidadaniaToolStripMenuItem";
+            this.cidadaniaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cidadaniaToolStripMenuItem.Text = "Cidadania";
+            this.cidadaniaToolStripMenuItem.Click += new System.EventHandler(this.cidadaniaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -94,6 +103,7 @@
         private System.Windows.Forms.Button btnvoltar;
         private System.Windows.Forms.ToolStripMenuItem projetosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem form2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cidadaniaToolStripMenuItem;
     }
 }
 
